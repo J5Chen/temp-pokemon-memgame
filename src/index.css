@@ -37,7 +37,7 @@ p{
   grid-template-rows: 96px 96px 96px;
   gap: 32px;
   place-items: center;
-  transform: translate(0,-38%);
+  transform: translate(0,-31%);
 }
 
 .card {
@@ -70,7 +70,9 @@ h1 {
 }
 
 p {
-  transform: translate(0,-1000%);
+  transform: translate(0,-700%);
+  z-index: 1;
+  text-shadow: 4px, 4px, 1px #1a1a1a;
 }
 
 button {
